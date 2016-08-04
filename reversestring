@@ -1,0 +1,7 @@
+import java.util.Scanner;
+class reversestring{
+Scanner scr=new Scanner(System.in);
+StringBuffer str=scr.next();
+StringBuffer s=str.reverse();
+System.out.println(s);
+}
